@@ -1,0 +1,177 @@
+.top_part li
+{
+    float: right;
+    list-style: none;
+    margin:23px;
+    margin-top: -8px;
+    font-size:20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:azure;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+#secondary_punch_line
+{
+    color:rgb(252, 251, 249);
+    margin-left: 30px;
+    font-family: 'Sansita Swashed', cursive;
+}
+.navbar
+{
+    color:white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.navbar:hover
+{
+  background-color: rgb(252, 252, 250);
+  border-radius: 6px;
+  color:rgb(116, 90, 8);
+}
+.top_part
+{
+    background-color: transparent;
+    overflow: auto;
+    height: 45px;
+}
+body
+{
+    background-image: url('images/donation.png');
+    background-size: cover;
+    
+}
+.button
+{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: green;
+    padding: 4px;
+    border-radius:4px;
+    border:2px solid rgb(247, 246, 244);
+    color: rgb(252, 251, 248);
+    margin-left:40px;
+    line-height: 5.9em;
+    font-family: 'Reggae One', cursive;
+    font-weight: bold;
+    animation: animate  
+    1.5s linear infinite;
+}
+.para
+{
+    font-size: 23px;
+}
+
+   
+@keyframes animate { 
+    0% { 
+        opacity: 0.1; 
+    } 
+
+    50% { 
+        opacity: 1.5; 
+    } 
+
+    100% { 
+        opacity: 2.0; 
+    } 
+}
+#sparks_foundation_headline
+{
+    float:left;
+    font-size: 23px;
+    margin-right: 68px;
+    color:white;
+}
+#main
+{
+    font-weight: bold;
+}
+.punch_line
+{
+    margin-left:0px;
+    margin-top: 100px;
+    font-size: 18px;
+    font-family: 'Cinzel', serif;
+    color: rgb(241 147 22);
+}
+
+.social{
+    margin-bottom: 75px;
+}
+.social li{
+    display: inline-block;
+    font-size: 24px;
+    padding: 2px 65px;
+}
+.social a {
+    padding: 0px 50px;
+    cursor: pointer;
+  }
+  #instagram {
+    font-size: 30px;
+    color: #8a3ab9;
+    position: absolute;
+    left: 500px;
+    top: 20px;
+  }
+  #instagram:hover {
+    font-size: 40px;
+  }
+  #facebook {
+    font-size: 30px;
+    color: #4267b2;
+    position: absolute;
+    left: 550px;
+    top: 20px;
+  }
+  #facebook:hover {
+    font-size: 40px;
+  }
+  #twitter {
+    font-size: 30px;
+    color: #1da1f2;
+    position: absolute;
+    left: 600px;
+    top: 20px;
+  }
+  #twitter:hover {
+    font-size: 40px;
+  }
+  #linkedin {
+    font-size: 30px;
+    color: #0e76a8;
+    position: absolute;
+    left: 650px;
+    top: 20px;
+  }
+  #linkedin:hover {
+    font-size: 40px;
+  }
+  #globe {
+    font-size: 30px;
+    color: #3ebf50;
+    position: absolute;
+    left: 700px;
+    top: 20px;
+  }
+  #globe:hover {
+    font-size: 40px;
+  }
+ 
+#footer {
+    height: 20px;
+    /* background: rgb(2,0,36); */
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,94,191,1) 0%, rgba(126,128,172,1) 95%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    position: absolute;
+    top: 87%;
+    width: 100%;
+  }
+  #footer div{
+    display: block;
+  }
